@@ -37,7 +37,7 @@ body {
 }
 
 body * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
 
@@ -137,7 +137,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: background 0.5s;
+  transition: background 0.2s;
 }
 
 /* pseudo-selector */
@@ -150,7 +150,6 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  gap: 16px;
 
   padding: 24px 0;
 
@@ -183,7 +182,7 @@ footer {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
-  :light {
+  .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
